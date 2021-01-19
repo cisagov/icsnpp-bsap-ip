@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2021-01-19-14-27-43
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1595523228.275860	CduSOT1BUEgs4xW8ll	fe80::c1d:332b:c4f1:83ba	5353	ff02::fb	5353	udp	0	-	_afpovertcp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1595523228.275970	C54hDk2No33z2NP6i1	192.168.5.10	5353	224.0.0.251	5353	udp	0	-	_afpovertcp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1595523292.279568	CHPpn21EkMJD209vri	fe80::c1d:332b:c4f1:83ba	5353	ff02::fb	5353	udp	0	-	_afpovertcp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1595523292.279721	CTFvyu3e2Lr2Ldz251	192.168.5.10	5353	224.0.0.251	5353	udp	0	-	_afpovertcp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1595523420.358840	C39v0P2Nd8RA4tZDF5	fe80::c1d:332b:c4f1:83ba	5353	ff02::fb	5353	udp	0	-	_afpovertcp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1595523420.359160	CrnuQL2DEKgRvTNWS7	192.168.5.10	5353	224.0.0.251	5353	udp	0	-	_afpovertcp._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+#close	2021-01-19-14-27-43

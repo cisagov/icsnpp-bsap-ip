@@ -1,0 +1,10 @@
+[package]
+build_dir = build/ICSNPP_Bsap_ip.tgz
+script_dir = build/scripts/icsnpp/bsap-ip
+build_command = ./configure && make
+description = BSAP over IP plugin for parsing and logging of the BSAP protocol - CISA ICSNPP
+credits = Devin Vollmer <devin.vollmer@inl.gov>
+tags =  bsap, BSAP, ics, ICS, CISA, INL, ICSNPP, icsnpp, zeek plugin, log writer, protocol analyzer
+depends =
+  zkg >=2.0
+  zeek >=3.0.0
