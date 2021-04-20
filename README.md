@@ -2,7 +2,7 @@
 
 This repository and package has been replaced by new BSAP repository which combines the BSAP over IP and BSAP Serial parsers into one plugin:
 
-## [BSAP over IP](https://github.com/cisagov/icsnpp-bsap-ip)
+### [ICSNPP-BSAP](https://github.com/cisagov/icsnpp-bsap)
 
 Industrial Control Systems Network Protocol Parsers (ICSNPP) - BSAP over IP.
 
